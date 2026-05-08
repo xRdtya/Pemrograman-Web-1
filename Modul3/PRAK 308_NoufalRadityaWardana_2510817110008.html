@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title> Pendaftaran Kursus </title>
+    </head>
+    <body>
+        <table border="3" align="center">
+            <tr bgcolor="sky blue">
+                <td colspan="2" width="500" height="60" align="center">
+                <font face="arial black" size="5" color="red">Pendaftaran Khusus</font>
+                </td>
+            </tr>
+
+            <tr bgcolor="gray">
+                <td colspan="2">
+                    <font face="arial"><h2> Data Diri </h2></font>
+                    <font style="line-height: 25px;">
+                        Nama<input type="text" name="nama" style="margin-left: 126px ;">
+                        <br>
+                        Nim<input type="text" name="nim" style="margin-left: 135.5px ;">
+                        <br>
+                        E-mail<input type="text" name="email" style="margin-left: 120.5 ;">
+                        <br>
+                        Tanggal Lahir<input type="date" name="tanggal_lahir" style="margin-left: 74.5;">
+                        <br>
+                        Jenis Kelamin<input type="radio" name="jenis_kelamin" value="laki_laki" style="margin-left: 74px;"> Laki-Laki
+                        <br>
+                        <input type="radio" name="jenis_kelamin" value="perempuan" style="margin-left: 163.5px;"> Perempuan
+                        <br>
+
+                        Pilih Program Khusus
+                        <input type="checkbox" name="program_khusus" value="C#" style="margin-left: 18px;">C#
+                        <br>
+                        <input type="checkbox" name="program_khusus" value="Java" style="margin-left: 163px;">Java
+                        <br>
+                        <input type="checkbox" name="program_khusus" value="SQL" style="margin-left: 163px;">SQL
+                        <br>
+                        <input type="checkbox" name="program_khusus" value="HTML dan PHP" style="margin-left: 163;">HTML dan PHP
+                        <br>
+
+                        Pilihan Hari/Jam Khusus
+                        <select name="Jadwal" style="margin-left: 5px;">
+                        <option value="Senin-Rabu Pagi"> Senin - Rabu/09.00 - 11.00 </option>
+                        <option value="Senin-Rabu Siang"> Senin - Rabu/13.30 - 16.00 </option>
+                        <option value="Kamis-Jumat Pagi"> Kamis - Jumat/08.00 - 10.00 </option>
+                        <option value="Kamis-Jumat siang"> Kamis - Jumat/13.30 - 15.00 </option
+                        </select>
+                    </font>
+                </td>
+            </tr>
+            <tr bgcolor="salmon">
+                <td colspan="2">
+                    Komentar Anda
+                    <font style="line-height: 25px;">
+                        <br>
+                        <textarea style="resize: none;" name="deskripsi" cols="40" rows="4" align="center"></textarea>
+                        <br>
+                    </font>
+                    <font style="line-height: 30px;">
+                        <input type="reset" value="Reset" name="Reset">
+                        <input type="submit" value="Submit" name="Submit">
+                        <input type="button" value="Cancel" name="Cancel">
+                    </font>
+                    <br><br>
+                </td>
+            </tr>
+    </body>
+</html>
